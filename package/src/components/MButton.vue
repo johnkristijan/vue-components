@@ -1,5 +1,5 @@
 <template>
-    <button type="button" @click="$emit('on-click')">
+    <button id="fantastic-button" type="button" @click="$emit('on-click')">
         {{ props.buttonText || 'default text' }}
     </button>
 </template>

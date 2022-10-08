@@ -1,9 +1,20 @@
 {
     "name": "jk-vue-components",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "Basic vue components made by JK",
-    "main": "main.js",
+    "main": "./dist/jk-vue-components.umd.js",
+    "module": "./dist/jk-vue-components.es.js",
     "type": "module",
+    "files": [
+        "dist"
+    ],
+    "exports": {
+        ".": {
+            "import": "./dist/jk-vue-components.es.js",
+            "require": "./dist/jk-vue-components.umd.js"
+        },
+        "./dist/style.css": "./dist/style.css"
+    },
     "keywords": [
         "vue",
         "components"
@@ -16,8 +27,8 @@
         "preview": "vite preview"
     },
     "repository": {
-      "type": "git",
-      "url": "git+https://github.com/johnkristijan/vue-components.git"
+        "type": "git",
+        "url": "git+https://github.com/johnkristijan/vue-components.git"
     },
     "dependencies": {
         "vue": "^3.2.37"
@@ -29,7 +40,7 @@
         "vite": "^3.1.0"
     },
     "bugs": {
-      "url": "https://github.com/johnkristijan/vue-components/issues"
+        "url": "https://github.com/johnkristijan/vue-components/issues"
     },
     "homepage": "https://github.com/johnkristijan/vue-components#readme"
 }
