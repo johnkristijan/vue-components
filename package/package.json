@@ -1,0 +1,35 @@
+{
+    "name": "jk-vue-components",
+    "version": "0.0.2",
+    "description": "Basic vue components made by JK",
+    "main": "main.js",
+    "type": "module",
+    "keywords": [
+        "vue",
+        "components"
+    ],
+    "author": "John K Hermann",
+    "license": "ISC",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/johnkristijan/vue-components.git"
+    },
+    "dependencies": {
+        "vue": "^3.2.37"
+    },
+    "devDependencies": {
+        "@vitejs/plugin-vue": "^3.1.0",
+        "sass": "^1.55.0",
+        "sass-loader": "^13.1.0",
+        "vite": "^3.1.0"
+    },
+    "bugs": {
+      "url": "https://github.com/johnkristijan/vue-components/issues"
+    },
+    "homepage": "https://github.com/johnkristijan/vue-components#readme"
+}
